@@ -1,19 +1,18 @@
-fastapi
-uvicorn
-PyJWT
-python-dotenv
-groq
-python-multipart
-passlib[bcrypt]
-PyPDF2
-langchain
-langchain-groq
-langchain-community
-faiss-cpu
-sentence-transformers
-langchain-huggingface
-motor
-psutil
-bcrypt
-huggingface-hub[hf_xet]
-aiofiles
+fastapi==0.115.12
+uvicorn==0.34.2
+PyJWT==2.10.1
+python-dotenv==1.1.0
+groq==0.24.0
+python-multipart==0.0.20
+passlib[bcrypt]==1.7.4
+PyPDF2==3.0.1
+langchain==0.3.25
+langchain-groq==0.3.2
+langchain-community==0.3.23
+sentence-transformers==4.1.0 --extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.7.0 --index-url https://download.pytorch.org/whl/cpu
+motor==3.7.0
+psutil==7.0.0
+bcrypt==4.3.0
+huggingface-hub[hf_xet]==0.31.1
+aiofiles==24.1.0
